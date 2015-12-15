@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-a76576126fb6b4d86fe4c73be98ffc5222a14e34.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-2f070ae01d9f0b4c79a4ac2158eae827a3421d20.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-d15cb502adbecbabdede700d52baa99d85681f86.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-217fd9cdcceb163b4f2ce75056cee585ec29d19e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-be3fc8b3252792f89e492cd147aadd7a13804a6b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-139564258f8725fa97d1d9f2fb24ee2dbc5b81e7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-4b6e46581f9a02dda73d6371f480b92534ee9573.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-0b72d4f6a8d25768b8c309bb5d202c1967e24af8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-5540d879b26944d50d42edb080f7e5d262facee6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-af1e40eb954ce057ef3dc1008965c5ead886f747.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-c1040bd69c7f02b9152add5c853a34b5595d4aad.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-6e11d7055b4186351a07b857d6dd3cc71d7dbfd2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-c72edc9b999807836976478ac778293b9da85077.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-8f411d11893a66cadc6d4e844d06eb56f11706d4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-24d90ca7f3ecca4cdee9c1bc4f4e3e88bdfb37cd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\libs\android-rome-feed-reader-1.0.0-r2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="868c7f0ce1e544561bc3222aefa060a007e1642b">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\android-rome-feed-reader-1.0.0-r2-08e1b3abbe19ee7d20338ebfae5ad4ecb19b139c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-3e45a026ed8ef3949ba7aa1c71073b14529f0c97.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.wefika\flowlayout\0.4.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c27d853ba7379592540b315e43df0abf3d83cf74">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-37cd91f91ce62451f2d80f29db87f68d6f702b98.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-039660b57bc759310d9af3d8a693b1920294d9c2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-fa5ce7a0757fc448a6202338481bf0d84ad60ece.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-e156e72ff62b770f549a03511cebf4a2abc6b6d8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-dd0e960a6ff9054a0b1e052b57b59b8ebbb7e348.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-a7b2af87210629aac74678ceb7c8abe951560611.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\libs\jsoup-1.8.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="580e4dd2a6125cc4037450b40623ac6a552c11df">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\jsoup-1.8.2-51acdff4b88bae7080ab6fc82500a08720c0398a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-2f07d4c2091c2ce1d9e6139045f0a82332beaa72.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-77f8fff466915f5c7407ae1a4c59c7dbfc118697.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\libs\jdom-1.1.1-android-fork.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="936e2a877cacca2108b619bbc718d1550299b106">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\jdom-1.1.1-android-fork-5c4cfc2041071204588546363870d86624967ded.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-0f5c10b0a6763e0a0e605fe2e5ebc40a5ca13eb3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\gson-2.3.1-283d76fbd35148f895281b359cbc35c27e51968d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-cd6822a047bad6980ed04ed763410d0eb7611ccd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\classes-9f7838f203ce4f006c742adc95070621ebba68ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\Habeeb\.gradle\caches\modules-2\files-2.1\com.intellij\annotations\12.0\bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539\annotations-12.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539">
+        <dex dex="C:\Users\Habeeb\AndroidStudioProjects\NewsWords\app\build\intermediates\pre-dexed\debug\annotations-12.0-474fbe3681d7daab077f4c1fc515008745fbee69.jar" />
+    </item>
+
+</items>

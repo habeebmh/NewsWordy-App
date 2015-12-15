@@ -1,0 +1,13 @@
+http://www.npr.org/rss/rss.php?id=1027
+http://www.npr.org/rss/rss.php?id=1007
+http://www.npr.org/rss/rss.php?id=1030
+http://feeds.bbci.co.uk/news/health/rss.xml
+http://www.cbsnews.com/latest/rss/health
+http://feeds.abcnews.com/abcnews/healthheadlines
+http://feeds.reuters.com/reuters/healthNews?format=xml
+http://www.eurekalert.org/rss/medicine_health.xml
+http://hosted2.ap.org/atom/APDEFAULT/bbd825583c8542898e6fa7d440b9febc
+http://www.dailymail.co.uk/health/index.rss
+http://feeds.feedburner.com/NewshourGlobalHealthWatch?format=xml
+http://feeds.feedburner.com/NewshourHealth?format=xml
+http://healthland.time.com/feed/rss/

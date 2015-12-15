@@ -1,0 +1,10 @@
+http://www.npr.org/rss/rss.php?id=1014
+http://feeds.skynews.com/feeds/rss/politics.xml
+http://www.cbsnews.com/latest/rss/politics
+http://feeds.abcnews.com/abcnews/politicsheadlines
+http://feeds.reuters.com/Reuters/PoliticsNews?format=xml
+http://hosted2.ap.org/atom/APDEFAULT/89ae8247abe8493fae24405546e9a1aa
+http://www.telegraph.co.uk/news/politics/rss
+http://www.ibtimes.com/rss/politics
+http://feeds.feedburner.com/pbs/qMdg?format=xml
+http://feeds.washingtonpost.com/rss/politics

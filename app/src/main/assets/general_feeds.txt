@@ -1,0 +1,12 @@
+http://www.msnbc.com/feeds/latest
+http://hosted2.ap.org/atom/APDEFAULT/3d281c11a96b4ad082fe88aa0db04305
+http://hosted2.ap.org/atom/APDEFAULT/aa9398e6757a46fa93ed5dea7bd3729e
+http://www.forbes.com/feeds/popstories.xml
+http://www.forbes.com/real-time/feed2/
+http://www.huffingtonpost.com/feeds/news.xml
+http://feeds.feedburner.com/TheAtlantic?format=xml
+http://america.aljazeera.com/content/ajam/articles.rss
+http://feeds.feedburner.com/NewshourHeadlines?format=xml
+http://feeds.slate.com/slate
+http://feeds.feedburner.com/thedailybeast/articles?format=xml
+http://newsfeed.time.com/feed/

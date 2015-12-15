@@ -1,0 +1,16 @@
+http://www.npr.org/rss/rss.php?id=1004
+http://rt.com/rss/
+http://rss.cnn.com/rss/edition_world.rss
+http://feeds.bbci.co.uk/news/world/rss.xml
+http://feeds.skynews.com/feeds/rss/world.xml
+http://www.cbsnews.com/latest/rss/world
+http://feeds.abcnews.com/abcnews/internationalheadlines
+http://feeds.abcnews.com/abcnews/worldnewsheadlines
+http://feeds.reuters.com/Reuters/worldNews?format=xml
+http://hosted2.ap.org/atom/APDEFAULT/cae69a7523db45408eeb2b3a98c0c9c5
+http://www.telegraph.co.uk/news/worldnews/rss
+http://www.forbes.com/europe_news/index.xml
+http://www.wsj.com/xml/rss/3_7085.xml
+http://www.latimes.com/world/rss2.0.xml
+http://www.theguardian.com/world/rss
+http://feeds2.feedburner.com/time/world?format=xml

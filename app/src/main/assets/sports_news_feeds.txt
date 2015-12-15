@@ -1,0 +1,13 @@
+http://rss.cnn.com/rss/edition_sport.rss
+http://www.npr.org/rss/rss.php?id=1055
+http://feeds.abcnews.com/abcnews/sportsheadlines
+http://feeds.reuters.com/reuters/sportsNews?format=xml
+http://rss.cnn.com/rss/si_topstories.rss
+http://hosted2.ap.org/atom/APDEFAULT/347875155d53465d95cec892aeb06419
+http://www.telegraph.co.uk/sport/rss
+http://www.ibtimes.com/rss/sports
+http://www.latimes.com/sports/rss2.0.xml
+http://www.dailymail.co.uk/sport/index.rss
+http://www.theguardian.com/us/sport/rss
+http://www.theguardian.com/football/rss
+http://feeds.washingtonpost.com/rss/sports

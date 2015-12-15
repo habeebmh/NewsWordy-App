@@ -1,0 +1,13 @@
+http://www.npr.org/rss/rss.php?id=1003
+http://rss.cnn.com/rss/edition_us.rss
+http://feeds.skynews.com/feeds/rss/us.xml
+http://www.cbsnews.com/latest/rss/us
+http://feeds.abcnews.com/abcnews/usheadlines
+http://feeds.reuters.com/Reuters/domesticNews?format=xml
+http://hosted2.ap.org/atom/APDEFAULT/386c25518f464186bf7a2ac026580ce7
+http://www.latimes.com/nation/rss2.0.xml
+http://www.dailymail.co.uk/ushome/index.rss
+http://www.pbs.org/newshour/rss/nation.xml
+http://www.theguardian.com/us/rss
+http://feeds2.feedburner.com/time/nation?format=xml
+http://feeds.washingtonpost.com/rss/national
