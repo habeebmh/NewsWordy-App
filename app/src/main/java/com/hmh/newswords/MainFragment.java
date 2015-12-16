@@ -19,7 +19,11 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AccelerateInterpolator;
+import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
+import android.view.animation.AnimationSet;
+import android.view.animation.DecelerateInterpolator;
 import android.view.animation.TranslateAnimation;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
@@ -55,8 +59,10 @@ public class MainFragment extends Fragment {
     public static final String STRING_WORD = "word_to_find";
 
     protected HashMap<String, Integer> mWordsList;
-    private int totalWords = 0;
-    private FlowLayout mWordsContainer;
+    private AnimationSet mAnimation;
+    private ImageView mCircleBg;
+    private TextView mWord;
+    private int lastWord = 0;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -69,12 +75,31 @@ public class MainFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         @SuppressLint("InflateParams") View view = inflater.inflate(R.layout.fragment_main, null);
-        mWordsContainer = (FlowLayout) view.findViewById(R.id.container);
+        // mWordsContainer = (FlowLayout) view.findViewById(R.id.container);
         // ScrollView mScrollView = (ScrollView) view.findViewById(R.id.scrollView);
 
         if (mWordsList == null || mWordsList.isEmpty()) {
             mWordsList = new HashMap<>();
         }
+
+        RelativeLayout circleContainer = (RelativeLayout) view.findViewById(R.id.circleContainer);
+        ImageView circleBg = (ImageView) view.findViewById(R.id.circleImg);
+        TextView wordView = (TextView) view.findViewById(R.id.wordTextView);
+
+        circleContainer.setOnClickListener(new OnWordClicked());
+
+        circleBg.setMaxWidth(circleContainer.getWidth());
+        circleBg.setMaxHeight(circleContainer.getHeight());
+        int r = new Random().nextInt(225);
+        int g = new Random().nextInt(225);
+        int b = new Random().nextInt(225);
+        int randomColor = Color.rgb(r, g, b);
+        circleBg.setColorFilter(randomColor);
+
+        wordView.setWidth(circleBg.getWidth());
+        wordView.setText(word);
+        wordView.setTextSize((float) (wordView.getTextSize() * ratio) - 20);
+
 
         new GetWordsTask().execute();
 
@@ -101,78 +126,58 @@ public class MainFragment extends Fragment {
 
     private View createWordCircle(String word, double number, double total) {
         @SuppressLint("InflateParams") final View view = LayoutInflater.from(getActivity()).inflate(R.layout.word_circle, null);
-        RelativeLayout circleContainer = (RelativeLayout) view.findViewById(R.id.circleContainer);
-        ImageView circleBg = (ImageView) view.findViewById(R.id.circleImg);
-        TextView wordView = (TextView) view.findViewById(R.id.wordTextView);
-        double ratio = (number / total) * 10;
-
-        int dimen = (int) (ratio * 800);
-
-        circleContainer.setLayoutParams(new FlowLayout.LayoutParams(dimen + 30, dimen + 20));
-        circleContainer.setOnClickListener(new OnWordClicked());
-
-        circleBg.setMaxWidth(circleContainer.getWidth());
-        circleBg.setMaxHeight(circleContainer.getHeight());
-        int r = new Random().nextInt(225);
-        int g = new Random().nextInt(225);
-        int b = new Random().nextInt(225);
-        int randomColor = Color.rgb(r, g, b);
-        circleBg.setColorFilter(randomColor);
-
-        wordView.setWidth(circleBg.getWidth());
-        wordView.setText(word);
-        wordView.setTextSize((float) (wordView.getTextSize() * ratio) - 20);
-
-//        final int direction = new Random().nextInt(100) >= 50 ? -1 : 1;
-//
-//        TranslateAnimation animation =
-//                new TranslateAnimation(view.getX(), direction * view.getX() + 5, view.getY(), direction * view.getY() + 5);
-//        animation.setDuration(1000);
-//        animation.setFillAfter(false);
-//        animation.setAnimationListener(new Animation.AnimationListener() {
-//            @Override
-//            public void onAnimationStart(Animation animation) {
-//
-//            }
-//
-//            @Override
-//            public void onAnimationEnd(Animation a) {
-//                a.setAnimationListener(this);
-//                view.startAnimation(a);
-//            }
-//
-//            @Override
-//            public void onAnimationRepeat(Animation animation) {
-//
-//            }
-//        });
-//
-//        view.startAnimation(animation);
 
         return view;
     }
 
 
-    private void populate() {
-        mWordsContainer.removeAllViews();
-        List<String> keys = new ArrayList<>(mWordsList.keySet());
-        Collections.shuffle(keys);
-        for (String o : keys) {
-            View v = createWordCircle(o, mWordsList.get(o), totalWords);
-            mWordsContainer.addView(v);
-        }
+    private void buildAnimation()
+    {
+        AlphaAnimation localAlphaAnimation1 = new AlphaAnimation(0.0F, 1.0F);
+        localAlphaAnimation1.setInterpolator(new DecelerateInterpolator());
+        localAlphaAnimation1.setDuration(2000L);
+        AlphaAnimation localAlphaAnimation2 = new AlphaAnimation(1.0F, 0.0F);
+        localAlphaAnimation2.setInterpolator(new AccelerateInterpolator());
+        localAlphaAnimation2.setStartOffset(2700L);
+        localAlphaAnimation2.setDuration(2000L);
+        this.mAnimation = new AnimationSet(false);
+        this.mAnimation.addAnimation(localAlphaAnimation1);
+        this.mAnimation.addAnimation(localAlphaAnimation2);
+        this.mAnimation.setAnimationListener(new Animation.AnimationListener()
+        {
+            private void performChanges()
+            {
+                Object localObject = new Random();
+                int i = Color.rgb(((Random)localObject).nextInt(225), ((Random)localObject).nextInt(225), ((Random)localObject).nextInt(225));
+                MainFragment.this.mCircleBg.setColorFilter(i);
+                TextView localTextView = MainFragment.this.mWord;
+                if (MainFragment.this.mWordsList.size() <= 0) {}
+                for (localObject = "Hello";; localObject = ((String)MainFragment.this.mWordsList.get(MainFragment.this.lastWord)).split("::")[0])
+                {
+                    localTextView.setText((CharSequence)localObject);
+                    if (MainFragment.this.lastWord < MainFragment.this.mWordsList.size() - 1) {
+                        break;
+                    }
+                    MainFragment.access$402(MainFragment.this, 0);
+                    return;
+                }
+                MainFragment.access$412(MainFragment.this, 1);
+            }
 
-//        new CountDownTimer(mScrollView.getHeight(), 20) {
-//
-//            public void onTick(long millisUntilFinished) {
-//
-//                mScrollView.scrollTo(0, (int) (mScrollView.getHeight() - millisUntilFinished));
-//            }
-//
-//            public void onFinish() {
-//            }
-//
-//        }.start();
+            public void onAnimationEnd(Animation paramAnonymousAnimation)
+            {
+                paramAnonymousAnimation.setAnimationListener(this);
+                MainFragment.this.mCircleBg.startAnimation(paramAnonymousAnimation);
+                MainFragment.this.mWord.startAnimation(paramAnonymousAnimation);
+            }
+
+            public void onAnimationRepeat(Animation paramAnonymousAnimation) {}
+
+            public void onAnimationStart(Animation paramAnonymousAnimation)
+            {
+                performChanges();
+            }
+        });
     }
 
     private class GetWordsTask extends AsyncTask<Void, Void, HashMap<String, Integer>> {
